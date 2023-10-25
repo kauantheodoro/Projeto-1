@@ -1,0 +1,200 @@
+html, body,imagem{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #202020;
+    height: 70px;
+    color: white;
+    list-style: none;
+    margin-top: 0;
+    
+    
+    
+}
+
+.navigation ul
+{
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    height: 56px;
+    margin-left: 900px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.navigation li{
+    
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    padding-right: 30px;
+    line-height: 56px;
+}
+
+.imagem{
+    background-image: url(img/foto4.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130vh;
+    background-attachment: fixed;
+}
+
+.imagem2{
+    background-image: url(img/foto7.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130vh;
+    background-attachment: fixed;
+}
+.imagem3{
+    background-image: url(img/foto8.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130vh;
+    background-attachment: fixed;
+}
+.imagem4{
+    background-image: url(img/foto9.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130vh;
+    background-attachment: fixed;
+}
+
+.imagem11{
+    background-image: url(img/foto12.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 130vh;
+    background-attachment: fixed;
+}
+
+
+    .container{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 40px;
+        border: 3px solid #00010c;
+        border-radius: 20px;
+        transform: translate(0%,-300%);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        place-items: center;
+        margin: 0 auto;
+        
+    }
+    .container2
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: white;
+        max-width: 600px;
+        max-height: 990px;
+        margin: 20px auto;
+        padding: 40px;
+        border: 3px solid #00010c;
+        border-radius: 20px;
+        transform: translate(0%,-300%);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        place-items: center;
+        margin: 0 auto;
+    }
+
+    .form-group{
+        margin-top: -2px;
+    }
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="Estado"],
+input[type="tel"],
+input[type="date"],
+input[type="cpf"],
+input[type="senha"],
+input[type="color"]
+.h1p{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2px;
+}
+
+.estado{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+
+.label {
+    display: block;
+    font-weight: bold;
+}
+
+.Limpar{
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+    
+}
+
+input[type="submit"],
+input[type="reset"]
+ {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.Enviar{
+    margin-bottom: 20px;
+    margin-left: -195px;
+    margin-top: -60px;
+    
+}
+
+.Cadastrar{
+    margin-bottom: 20px;
+    margin-top: -60px;
+}
